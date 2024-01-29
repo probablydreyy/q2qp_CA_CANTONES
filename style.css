@@ -1,0 +1,444 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sanchez&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Sanchez&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    z-index:1;
+}
+
+body{
+    overflow-x:hidden;
+}
+
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:5vh;
+    padding:1vw;
+    text-align:center;
+    z-index:99;
+    background-color: #C1FF72;
+}
+
+.links{
+    font-size:1.5vw;
+    margin:11.5vw;
+    margin-top: 0.8vh;
+    border:1px solid #000000;
+    background-color: #D3FFCA;
+    border-radius: 0.5vw;
+    padding:0.5vw;
+    position:absolute;
+    top:0.5vw;
+    right:1vw;
+    font-family: "Sanchez", sans-serif;
+    font-optical-sizing: auto;
+    color:#202A25;
+    text-decoration: none;
+    transition:0.3s;
+}
+
+.links:hover{
+    transition:0.5s;
+    animation:largen 0.3s forwards;
+}
+
+@keyframes largen {
+    0% {
+        transform:scale(1);
+    }
+    100%{
+        transform:scale(1.3);
+    }
+}
+
+.title {
+    float: left;
+    margin-left: 1.5vw;
+    font-family: "Sanchez",sans-serif;
+    font-style: normal;
+    font-size:2vw;
+    color: #000000;
+}
+
+.right{
+    margin-right:2vw;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    height:5vh;
+    padding: 0.75vw;
+    text-align: center;
+    background-color: #C1FF72;
+    z-index:98;
+}
+
+.copyright{
+    float:right;
+    font-size:1vw;
+    font-family: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Sanchez&display=swap');
+    font-optical-sizing: auto;
+    color:#202A25;
+    background-image:#C8D5B9;
+    margin-right:4vw;
+    margin-top:0.6vw;
+}
+
+@keyframes protransition {
+    0%{
+        transform: scale(10) rotate(120deg);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.fb, .yt, .ig{
+    background-color:white;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    transition:0.3s;
+}
+
+.fb, .ig, .yt{
+    background: url('tae.png') no-repeat;
+    width: 68px;
+    height: 68px;
+    float:left;
+    border:4px solid #000000;
+    border-radius: 75%;
+}
+
+.fb{
+    background-position: -439px -146px;
+    margin-left: 1vw;
+    margin-top:-.5vw;
+}
+.ig{
+    background-position: -290px -221px;
+    margin-left: 1vw;
+    margin-top:-.5vw;
+}
+.yt{
+    background-position:-439px -221px;
+    margin-top:-.5vw;
+}
+
+/*FOOTER END*/
+/*BANNER AND SLOGAN*/
+
+.vidbg{
+    width:100%;
+    height:auto;
+    position:absolute;
+    z-index:-1;
+    left:0;
+    top:0;
+}
+
+.slogantitle{
+    font-family: "Sanchez";
+    font-style: normal;
+    font-size:4vw;
+    margin-top:20vw;
+    z-index:1;
+    color:rgb(140, 160, 27);
+    text-align:center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+.slogan{
+    font: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Sanchez&display=swap');
+    font-optical-sizing: auto;
+    margin-top:2vw;
+    color:rgb(198, 231, 7);
+    text-align: center;
+    margin-left:20vw;
+    margin-right:20vw;
+    font-size:2.5vw;
+}
+
+.bgorg{
+    margin-top:25vw;
+    margin-bottom:5vw;
+    text-align:center;
+}
+
+.titlebgorg{
+    font-family: "Sanchez";
+    font-style: normal;
+    margin-top: 0.5vh;
+    font-size:3vw;
+    color:#000000;
+    margin-left:4vw;
+    margin-bottom:1vw;
+}
+
+.textbgorg{
+    font-family:url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Sanchez&display=swap');
+    font-optical-sizing: auto;
+    color:#000000;
+    margin-left:20vw;
+    margin-right:20vw;
+    font-size:2vw;
+}
+
+.orgimpct{
+    margin-bottom: 10vw;
+    text-align: center;
+}
+
+.orgimpctitle{
+    font-family: "Sanchez";
+    font-style: normal;
+    margin-top: 0.5vh;
+    font-size:3vw;
+    color:#000000;
+    margin-left:3vw;
+    margin-bottom:1vw;
+}
+
+.orgimg img{
+    width:auto;
+    height:40vh;
+}
+
+.orgimg{
+    animation: protransition 2s;
+}
+
+.optext{
+    font-size:1vw;
+    font-family: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Sanchez&display=swap');
+    font-optical-sizing: auto;
+    color:#000000;
+    margin-left:20vw;
+    margin-right:20vw;
+    font-size:2vw;
+}
+/*INITIATIVE CODE*/
+
+.initiatives{
+    margin-left:5vw;
+    margin-right:5vw;
+    margin-top:15vw;
+    display:flex;
+    text-align:center;
+}
+
+.inimage img{
+    width:auto;
+    height:45vh;
+}
+
+.inimage{
+    animation: protransition 2s;
+}
+
+.initext{
+    float:left;
+}
+
+.inititle{
+    margin-top:1vw;
+    font-family: "Sanchez";
+    font-style: normal;
+    font-size:3vw;
+    color:#000000;
+}
+
+.iniparagraph{
+    font-size:1.5vw;
+    font-family: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Sanchez&display=swap');
+    font-optical-sizing: auto;
+    color:#000000;
+    margin-left:3vw;
+    margin-right:3vw;
+    margin-top:3vw;
+}
+
+.involvements{
+    margin-left:5vw;
+    margin-right:5vw;
+    margin-top:5vw;
+    display:flex;
+    text-align:center;
+    margin-bottom:5vw;
+}
+
+.invimage img{
+    width:auto;
+    height:45vh;
+}
+
+.invimage{
+    margin-right:3vw;
+    float:left;
+}
+
+.invtitle{
+    margin-top:1vw;
+    font-family: "Sanchez";
+    font-style: normal;
+    font-size:3vw;
+    color:#000000;
+}
+
+.invparagraph{
+    font-size:1.5vw;
+    font-family: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Sanchez&display=swap');
+    color:#000000;
+    margin-left:3vw;
+    margin-right:3vw;
+    margin-top:3vw;
+}
+
+.invtext{
+    float:left
+}
+
+.active{
+    margin-bottom:10wv;
+    text-align:center;
+}
+
+.activetitle{
+    font-family: "Sanchez";
+
+    font-style: normal;
+    margin-top: 1vh;
+    font-size:3vw;
+    color:#000000;
+    margin-left:5vw;
+    margin-bottom:1vw; 
+}
+
+.activeboxes{
+    margin: 1vw;
+    text-align:center;
+    display: flex;                
+    flex-direction: row;           
+    flex-wrap: nowrap;       
+    justify-content: space-between;
+    margin-left:5vw;
+    margin-right:5vw;       
+}
+
+.activetitlebox{
+    border:1px solid #000000;
+    width: 20vw;;
+    height: auto;
+    background-image: linear-gradient(#ffffff, #ffffff);
+    padding: 5vh;
+    z-index:-1;
+}
+
+.aptitle{
+    font-size:2vw;
+    font-family: "Sanchez";
+    font-optical-sizing: auto;
+    color:#000000;
+}
+
+.aboutustitle{
+    font-family: "Sanchez";
+    font-style: normal;
+    font-size:4vw;
+    margin-top:10vw;
+    z-index:1;
+    color:rgb(0, 0, 0);
+    text-align:center;
+}
+
+.aboutus{
+    font: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Sanchez&display=swap');
+    font-optical-sizing: auto;
+    margin-top:2vw;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    margin-left:20vw;
+    margin-right:20vw;
+    font-size:1.5vw;
+}
+
+@media (orientation:portrait){
+    .hthpvideo,.wwaimage img,.involveimage img,.initiaimage img{
+        width:40vw;
+        height:auto
+    }
+    .activeboxes{
+        margin:0vw;
+    }
+}
+
+.vnm{
+    margin-left:8vw;
+    margin-right:8vw;
+    margin-top:10vw;
+    display:flex;
+    text-align:center;                
+    flex-direction: row;           
+    flex-wrap: nowrap;       
+    justify-content: space-between; 
+}
+
+.vtitle{
+    margin-top:1vw;
+    font-family: "Sanchez";
+    font-weight: 900;
+    font-style: normal;
+    font-size:2.5vw;
+    color:#202A25;
+}
+
+.vparagraph{
+    font-size:1.2vw;
+    font-family:url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Sanchez&display=swap');
+    font-optical-sizing: auto;
+    margin-top:2vw;
+    color:rgb(198, 231, 7);
+    text-align: center;
+    margin-left:20vw;
+    margin-right:20vw;
+    font-size:2.5vw;
+    font-optical-sizing: auto;
+    color:#000000;
+    margin-left:5vw;
+    margin-right:5vw;
+    margin-top:3vw;
+    height:auto;
+    width:30vw;
+}
+
+.hthp{
+    margin-left:5vw;
+    margin-right:5vw;
+    margin-top:5vw;
+    margin-bottom:10vw;
+    display:flex;
+    text-align:center;
+}
+
+.hthpvideo{
+    width:auto;
+    height:40vh;
+    margin-right:3vw;
+    float:left;
+}
+
+.hthptitle{
+    margin-top:1vw;
+    font-family: "Sanchez";
+    font-style: normal;
+    font-size:2.5vw;
+    color:#202A25;
+}
